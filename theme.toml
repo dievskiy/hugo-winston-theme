@@ -7,7 +7,13 @@ homepage = "https://github.com/zerostaticthemes/hugo-winston-theme"
 demosite = "https://hugo-winston.netlify.app"
 
 tags = ["blog", "minimal", "clean", "zerostatic"]
-features = ["blog"]
+features = ["blog", "anchor-links"]
+
+[params]
+  # Enable anchor links for headings
+  anchorLinks = true
+  # Optional: Configure anchor link symbol
+  anchorSymbol = "#"
 
 [author]
   name = "Robert Austin"
